@@ -12,8 +12,6 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![Zustand](https://img.shields.io/badge/Zustand-State-FF6B6B?style=for-the-badge)](https://github.com/pmndrs/zustand)
 
-[✨ Live Demo](#) | [📖 Documentation](#usage) | [🚀 Quick Start](#installation)
-
 </div>
 
 ---
@@ -37,6 +35,7 @@
 ## 🚀 Features
 
 ### 📋 **Smart Habit Management**
+
 - **Multiple Habit Types**: Boolean (yes/no), Counter (numeric goals), Timer (duration-based)
 - **Category Organization**: Health, Fitness, Mindfulness, Productivity, Learning, Social, and more
 - **Difficulty Levels**: Easy, Medium, Hard with point multipliers
@@ -44,6 +43,7 @@
 - **Rich Descriptions**: Add context and motivation to your habits
 
 ### 📈 **Advanced Analytics Dashboard**
+
 - **Interactive Charts**: Line, area, bar, and pie charts with real-time data
 - **Time Range Analysis**: 7 days, 30 days, 3 months, or 1 year views
 - **Category Performance**: Visual breakdown of habit completion by category
@@ -52,6 +52,7 @@
 - **Achievement System**: Unlock badges for milestones and consistency
 
 ### 📅 **GitHub-Style Calendar**
+
 - **Visual Heatmap**: GitHub contribution-style calendar showing completion intensity
 - **Monthly Navigation**: Easy browsing through your habit history
 - **Interactive Days**: Click any day to view and edit habit completions
@@ -59,6 +60,7 @@
 - **Historical Trends**: Long-term progress visualization and pattern recognition
 
 ### ⚙️ **Comprehensive Settings**
+
 - **Data Management**: Export (JSON/CSV) and import functionality
 - **Habit Templates**: 25+ pre-made habits across all categories for quick setup
 - **Theme Customization**: Light, dark, and system preference themes
@@ -66,6 +68,7 @@
 - **Privacy Controls**: Clear data and manage your information
 
 ### 🎯 **Today's Dashboard**
+
 - **Progress Overview**: Real-time completion stats and motivational messages
 - **Quick Actions**: One-click habit completion with visual feedback
 - **Weekly Summary**: 7-day progress visualization
@@ -76,6 +79,7 @@
 ## 🛠️ Technology Stack
 
 ### **Frontend**
+
 - **Next.js 14** - React framework with App Router
 - **React 18** - UI library with hooks and modern patterns
 - **Tailwind CSS** - Utility-first CSS framework
@@ -84,11 +88,13 @@
 - **Recharts** - Powerful charting library for data visualization
 
 ### **State Management & Data**
+
 - **Zustand** - Lightweight state management with persistence
 - **Local Storage** - Client-side data persistence
 - **Date-fns** - Modern date utility library for calculations
 
 ### **Developer Experience**
+
 - **TypeScript-Ready** - Full type safety and IntelliSense
 - **ESLint & Prettier** - Code formatting and quality
 - **Hot Reload** - Instant development feedback
@@ -99,6 +105,7 @@
 ## 🏗️ Installation
 
 ### Prerequisites
+
 - Node.js 18+ and npm/yarn
 - Modern web browser with localStorage support
 
@@ -139,6 +146,7 @@ yarn start
 ## 📱 Usage
 
 ### 1. **Creating Your First Habit**
+
 - Click the "Add Habit" button on the dashboard
 - Choose from templates or create a custom habit
 - Select category, type (boolean/counter/timer), and difficulty
@@ -146,24 +154,28 @@ yarn start
 - Start tracking immediately!
 
 ### 2. **Daily Tracking**
+
 - Visit the Today view each day
 - Click the circle icon to mark habits complete
 - Watch your progress bars and stats update in real-time
 - Enjoy motivational messages as you improve
 
 ### 3. **Analytics & Insights**
+
 - Navigate to Analytics to see detailed charts
 - Explore different time ranges and categories
 - Track your streaks and unlock achievements
 - Identify patterns and areas for improvement
 
 ### 4. **Calendar View**
+
 - Browse your habit history with the visual heatmap
 - Click any day to see details and make edits
 - Track monthly progress and long-term trends
 - Celebrate perfect days and consistency streaks
 
 ### 5. **Customization**
+
 - Access Settings to personalize your experience
 - Export your data for backup or analysis
 - Import habits from templates or previous exports
@@ -205,18 +217,21 @@ habitflow/
 ## 🎨 Design Philosophy
 
 ### **User-Centric Design**
+
 - Intuitive navigation and clear visual hierarchy
 - Consistent design language across all components
 - Accessibility-first approach with keyboard navigation
 - Mobile-optimized touch targets and interactions
 
 ### **Data-Driven Insights**
+
 - Beautiful visualizations that tell a story
 - Actionable insights from habit completion patterns
 - Gamification elements that motivate continued use
 - Progress celebration to reinforce positive behavior
 
 ### **Performance & Privacy**
+
 - Client-side data storage for complete privacy
 - Optimized bundle size and fast loading times
 - Progressive Web App capabilities
@@ -229,6 +244,7 @@ habitflow/
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ### Development Setup
+
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
 3. Make your changes and test thoroughly
@@ -237,6 +253,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 6. Open a Pull Request
 
 ### Code Style
+
 - Follow existing code patterns and conventions
 - Use TypeScript-style JSDoc comments for functions
 - Ensure components are accessible and responsive
@@ -246,25 +263,29 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ## 📋 Roadmap
 
-### 🎯 **Phase 1: Enhanced Analytics** *(Current)*
+### 🎯 **Phase 1: Enhanced Analytics** _(Current)_
+
 - [x] Interactive charts with Recharts
 - [x] Achievement system with badges
 - [x] Habit correlation analysis
 - [x] Advanced streak calculations
 
-### 🔮 **Phase 2: Social Features** *(Planned)*
+### 🔮 **Phase 2: Social Features** _(Planned)_
+
 - [ ] Habit sharing with friends and family
 - [ ] Community challenges and leaderboards
 - [ ] Progress sharing on social media
 - [ ] Habit accountability partnerships
 
-### 🚀 **Phase 3: Advanced Features** *(Future)*
+### 🚀 **Phase 3: Advanced Features** _(Future)_
+
 - [ ] AI-powered habit suggestions
 - [ ] Integration with fitness trackers
 - [ ] Habit stacking and dependency chains
 - [ ] Advanced scheduling with smart reminders
 
-### 🌐 **Phase 4: Platform Expansion** *(Vision)*
+### 🌐 **Phase 4: Platform Expansion** _(Vision)_
+
 - [ ] Progressive Web App (PWA) capabilities
 - [ ] Desktop application with Electron
 - [ ] Mobile apps for iOS and Android
@@ -289,15 +310,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support & Contact
-
-- 📧 **Email**: support@habitflow.dev
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/habitflow/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/habitflow/discussions)
-- 📱 **Social**: [@HabitFlowApp](https://twitter.com/habitflowapp)
-
----
-
 <div align="center">
 
 **Made with ❤️ for habit builders everywhere**
@@ -309,13 +321,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </div>
 
 ---
-
-## 📊 Analytics & Metrics
-
-Since launching, HabitFlow has helped users:
-- 🎯 Create over **10,000+ habits**
-- 🔥 Build **500+ day streaks**
-- 📈 Achieve **85% average completion rates**
-- 🏆 Unlock **1,000+ achievements**
-
-*Join thousands of users building better habits with HabitFlow!*

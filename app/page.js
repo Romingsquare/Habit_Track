@@ -153,30 +153,23 @@ export default function HabitTrackerApp() {
 
           {/* Theme Switcher */}
           <div className="p-4 border-t border-border">
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button variant="outline" className="w-full">
-                  {theme === 'dark' ? <Moon className="h-4 w-4 mr-2" /> : 
-                   theme === 'light' ? <Sun className="h-4 w-4 mr-2" /> : 
-                   <Monitor className="h-4 w-4 mr-2" />}
-                  Theme
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="start">
-                <DropdownMenuItem onClick={() => setTheme('light')}>
+            <Button 
+              variant="outline" 
+              className="w-full"
+              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            >
+              {theme === 'dark' ? (
+                <>
                   <Sun className="h-4 w-4 mr-2" />
-                  Light
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setTheme('dark')}>
+                  Light Mode
+                </>
+              ) : (
+                <>
                   <Moon className="h-4 w-4 mr-2" />
-                  Dark
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setTheme('system')}>
-                  <Monitor className="h-4 w-4 mr-2" />
-                  System
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
+                  Dark Mode
+                </>
+              )}
+            </Button>
           </div>
         </div>
       </div>
